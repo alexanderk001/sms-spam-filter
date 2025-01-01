@@ -2,11 +2,19 @@
 
 This repository contains an R implementation of a Naive Bayes classifier for detecting SMS spam messages. The classifier uses text preprocessing techniques and a Document-Term Matrix (DTM) to train and evaluate the model. The dataset used is the publicly available SMS Spam Collection dataset from the UCI Machine Learning Repository.
 
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Dataset](#dataset)
+3. [Installation and Requirements](#installation-and-requirements)
+4. [Usage](#usage)
+5. [Code Explanation](#code-explanation)
+6. [Results](#results)
+
 ## Project Overview
 The goal of this project is to create a machine learning model that classifies SMS messages as either "ham" (non-spam) or "spam." The implementation uses the Naive Bayes algorithm, which is well-suited for text classification tasks.
 
 ## Dataset
-The dataset used for this project is the **SMS Spam Collection**, which can be downloaded from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection). It contains 5,572 labeled SMS messages with the following columns:
+The dataset used for this project is the **SMS Spam Collection**, which can be downloaded from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection). It contains 5,574 labeled SMS messages with the following columns:
 
 - **Label**: `ham` for non-spam messages and `spam` for spam messages.
 - **Message**: The SMS text message.
